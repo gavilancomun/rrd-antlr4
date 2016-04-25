@@ -1,26 +1,29 @@
 svg.railroad-diagram {
-    background-color: hsl(30,20%,95%);
+    background-color: white;
 }
 svg.railroad-diagram path {
-    stroke-width: 3;
-    stroke: black;
+    stroke-width: 1;
+    stroke: #c0c0c0;
     fill-opacity: 0;
 }
 svg.railroad-diagram text {
-    font: bold 14px monospace;
+    font: normal 14px Tahoma;
     text-anchor: middle;
 }
 svg.railroad-diagram text.label {
     text-anchor: start;
 }
 svg.railroad-diagram text.comment {
-    font: italic 12px monospace;
+    font: italic 14px Tahoma;
 }
 svg.railroad-diagram rect {
-    stroke-width: 3;
-    stroke: black;
-    fill: #9db0e5;
+    stroke-width: 1;
+    stroke: #c0c0c0;
+    fill: white;
 }
 svg.railroad-diagram rect[rx~="10"] {
-    fill: #c7a6d8;
+    fill: white;
+}
+.table th, .table td {
+  border-top : 0px;
 }
